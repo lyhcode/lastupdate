@@ -8,3 +8,6 @@ softwareupdate -i -a
 echo "Upgrading Homebrew"
 brew update
 brew upgrade
+
+# Upgrade all apps from App Store
+mas upgrade

@@ -28,13 +28,58 @@ sudo grep -q '^%staff' /etc/sudoers || sudo sed -i '' 's/^%admin.*/&\n%staff    
 echo "Install Homebrew"
 CI=1; /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-# OpenVPN Connect
+## git
+brew install git
+git config --global user.email "kyle@trunk-studio.com"
+git config --global user.name "Kyle"
+
+## Programmer's choice
+brew install htop tmux
+
+## Visual Studio Code
+brew install visual-studio-code
+
+## mas-cli
+## A simple command line interface for the Mac App Store. Designed for scripting and automation.
+brew install mas
+
+# Line
+mas install 539883307
+
+# Microsoft Remote Desktop
+brew install microsoft-remote-desktop
+
+# TeamViewer
+brew install teamviewer
+
+## Zoom, Slack
+brew install zoom slack
+
+## Sketch, Figma
+brew install sketch
+
+## Keka
+brew install keka
+
+## OpenVPN Connect
 brew install openvpn-connect
 
-## Vagrant
-brew install vagrant
+## VirtualBox
+brew install virtualbox virtualbox-extension-pack
+
+# Docker, Vagrant
+brew install docker vagrant
 
 ## Speedtest CLI
 brew tap teamookla/speedtest
 brew update
 brew install speedtest --force
+
+## 1Password
+brew install 1password 1password-cli
+
+## unetbootin
+## brew install unetbootin
+
+## VLC
+brew install vlc
