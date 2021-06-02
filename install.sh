@@ -43,14 +43,26 @@ brew install visual-studio-code
 ## A simple command line interface for the Mac App Store. Designed for scripting and automation.
 brew install mas
 
+# Google Chrome
+brew install google-chrome
+
 # Line
 mas install 539883307
+
+# Spotify
+brew install spotify spotify-now-playing
+
+# Notion
+brew install notion
 
 # Microsoft Remote Desktop
 brew install microsoft-remote-desktop
 
 # TeamViewer
 brew install teamviewer
+
+# AnyDesk
+brew install anydesk
 
 ## Zoom, Slack
 brew install zoom slack
@@ -83,3 +95,6 @@ brew install 1password 1password-cli
 
 ## VLC
 brew install vlc
+
+## Node.js
+brew install fnm
