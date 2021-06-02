@@ -28,6 +28,9 @@ sudo grep -q '^%staff' /etc/sudoers || sudo sed -i '' 's/^%admin.*/&\n%staff    
 echo "Install Homebrew"
 CI=1; /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+# OpenVPN Connect
+brew install openvpn-connect
+
 ## Vagrant
 brew install vagrant
 
