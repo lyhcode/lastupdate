@@ -96,5 +96,7 @@ brew install 1password 1password-cli
 ## VLC
 brew install vlc
 
+brew install ffmpeg
+
 ## Node.js
 brew install fnm
